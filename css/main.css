@@ -21,6 +21,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    /*font-family: Roboto;*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -280,6 +281,49 @@ span.icon {
 
 }
 
+.show-tablet {
+    display: none;
+}
+
 span.icon img {
     margin-right: 11px;
+}
+
+@media (max-width: 900px) {
+    .flex-wrap .co-body {
+        width: 100%;
+        max-width: 100%;
+
+    }
+    .image.left {
+        padding-right: 20px;
+    }
+    .show-tablet {
+        display: block;
+    }
+    .hide-tablet {
+        display: none;
+    }
+
+    .co-section {
+        padding: 40px 0;
+    }
+
+    .co-section .flex-wrap {
+        display: block;
+        background: #DDEEF5;
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+    .co-section .flex-wrap .image {
+        display: none;
+    }
+    #footer .flex-wrap {
+        display: block;
+    }
+    #footer .footer-info {
+        padding: 0;
+        margin-top: 80px;
+    }
 }
