@@ -99,14 +99,14 @@ table {
 }
 
 .banner {
-    min-height: 400px;
+    /*padding: 100px;*/
 }
 
 .banner .flex-row {
     display: flex;
-    flex-direction: column;
-    height: 400px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 420px;
 }
 
 .bkg-blue {
@@ -221,4 +221,65 @@ a.link {
 #footer {
     background: #001D9B;
     min-height: 500px;
+    padding: 40px 0;
+}
+
+#footer h3 {
+    color: white;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#footer p {
+    padding: 0;
+    color: #DDEEF5;
+}
+
+#footer .footer-heading {
+    width: 350px;
+}
+
+#footer .footer-info {
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+#footer .flex-wrap {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#footer h2 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 53px;
+    text-align: left;
+    color: white;
+    margin-top: 0;
+}
+
+span.icon {
+    color: #DDEEF5;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 0;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+
+}
+
+span.icon img {
+    margin-right: 11px;
 }
