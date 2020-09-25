@@ -209,3 +209,11 @@ a.link {
     display: block;
     cursor: pointer;
 }
+
+.bkg-light-blue {
+    background: #DDEEF5;
+}
+
+.flex-wrap.no-pad {
+    padding: 0;
+}
