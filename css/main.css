@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*, body, input {
+    box-sizing: border-box;
+    font-family: fieldwork, sans-serif;
+}
+
+#navbar {
+    height: 50px;
+    background: #001D9B;
+    display: block;
+    width: 100%;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-left .hamburger {
+    padding: 0 20px;
+}
+
+.btn {
+    font-size: 14px;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.nav-right {
+    padding-right: 20px;
+}
+
+.btn.orange {
+    width: 140px;
+    height: 30px;
+    background: #F77B2F;
+    border-radius: 56px;
+}
+
+.flex-row {
+    width: 100%;
+    display: flex;
+}
+
+.flex-row.space {
+    justify-content: space-between;
+}
+
+.banner {
+    min-height: 400px;
+}
+
+.banner .flex-row {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+}
+
+.bkg-blue {
+    background: #6BA3DA;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    width: 90%;
+}
+
+.flex-left {
+    max-width: 65%;
+}
+
+.flex-wrap .image {
+    display: block;
+    width: 50%;
+}
+
+.image.left {
+    padding-right: 12%;
+}
+
+.image.right {
+    padding-left: 12%;
+    text-align: right;
+}
+
+.flex-wrap .co-body {
+    max-width: 50%;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 80px;
+    align-items: center;
+}
+
+.co-section {
+    padding: 80px 0;
+}
+
+.eyebrow {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6BA3DA;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #001D9B;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3D404D;
+    padding: 10px 0;
+}
+
+.flex-wrap .image img {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+a.link {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    color: #001D9B;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+}
