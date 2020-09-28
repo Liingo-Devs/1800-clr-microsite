@@ -35,7 +35,7 @@ time, mark, audio, video {
 }
 
 .medium,
-h1,h2,h3,h4,.link{
+h1,h2,h3,h4,.link, .eyebrow{
     font-family: "GT Walsheim Medium", Arial;
 }
 
@@ -48,6 +48,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 ol, ul {
     list-style: none;
@@ -223,7 +225,7 @@ a.link {
     font-style: normal;
     line-height: 20px;
     color: #001D9B;
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: underline;
     margin-top: 15px;
     display: block;
@@ -314,7 +316,7 @@ span.icon img {
     margin-right: 11px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 860px) {
     .flex-wrap .co-body {
         width: 100%;
         max-width: 100%;
