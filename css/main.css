@@ -21,8 +21,26 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    /*font-family: Roboto;*/
+    font-family: "GT Walsheim Regular", Arial;
 }
+
+@font-face {
+    font-family: "GT Walsheim Regular";
+    src: url(../fonts/GT-Walsheim-Regular.woff);
+}
+
+@font-face {
+    font-family: "GT Walsheim Medium";
+    src: url(../fonts/GT-Walsheim-Medium.woff);
+}
+
+.medium,
+h1,h2,h3,h4,.link{
+    font-family: "GT Walsheim Medium", Arial;
+}
+
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -51,6 +69,7 @@ table {
     box-sizing: border-box;
     font-family: fieldwork, sans-serif;
 }
+
 
 #navbar {
     height: 50px;
@@ -222,7 +241,7 @@ a.link {
 #footer {
     background: #001D9B;
     min-height: 500px;
-    padding: 40px 0;
+    padding: 40px 0 0;
 }
 
 #footer h3 {
@@ -246,6 +265,11 @@ a.link {
     width: 350px;
 }
 
+#footer .footer-heading .smiley {
+    margin-left: 8px;
+    margin-bottom: -10px;
+}
+
 #footer .footer-info {
     padding-left: 10%;
     padding-top: 10px;
@@ -254,6 +278,7 @@ a.link {
 #footer .flex-wrap {
     align-items: flex-start;
     justify-content: flex-start;
+    padding-bottom: 60px;
 }
 
 #footer h2 {
@@ -326,4 +351,49 @@ span.icon img {
         padding: 0;
         margin-top: 80px;
     }
+}
+.socials .social-icon {
+    margin-right: 30px;
+    padding: 2px;
+}
+.socials {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.socials .social-icon {
+    display: block;
+}
+
+.divider {
+    display: block;
+    border-bottom: 1px solid #6BA3DA;
+    opacity: 0.2;
+}
+
+#footer .flex-wrap.footer-bottom {
+    color: white;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#footer .flex-wrap .text {
+    margin-left: 20px;
+    color: #DDEEF5;
+    opacity: 0.8;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
