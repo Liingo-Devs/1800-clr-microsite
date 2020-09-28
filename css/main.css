@@ -361,6 +361,13 @@ span.icon img {
         margin-top: 40px;
 
     }
+    .btn.orange {
+        width: 100px;
+    }
+    .banner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 .socials .social-icon {
     margin-right: 30px;
