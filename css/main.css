@@ -353,6 +353,14 @@ span.icon img {
         padding: 0;
         margin-top: 80px;
     }
+    .co-section .flex-wrap.split {
+        padding-bottom: 0;
+    }
+    .co-section .flex-wrap.split .right {
+        padding-left: 0;
+        margin-top: 40px;
+
+    }
 }
 .socials .social-icon {
     margin-right: 30px;
@@ -401,4 +409,29 @@ span.icon img {
 }
 .co-body p:last-of-type {
     margin-bottom: 18px;
+}
+.card {
+    background: white;
+    padding: 15px 30px;
+    border-left: 4px solid #001D9B;
+}
+.flex-wrap.split {}
+
+.flex-wrap.split .co-body {
+    padding-right: 40px;
+}
+
+.flex-wrap.split .right {
+    padding-left: 40px;
+}
+
+.card .blue-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "GT Walsheim Medium", Arial;
+    color: #001D9B;
+    margin-bottom: 0;
+}
+.card p:last-of-type {
+    margin-top: 10px;
 }
