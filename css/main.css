@@ -328,6 +328,9 @@ span.icon img {
     .show-tablet {
         display: block;
     }
+    .banner-image {
+        max-width: 140px;
+    }
     .hide-tablet {
         display: none;
     }
