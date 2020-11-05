@@ -486,3 +486,8 @@ span.icon img {
     max-width: 600px;
     width: 75%;
 }
+.blue-white-page ul.numbered.no-num > li .num-icon {
+    min-width: 10px;
+    margin-top: 5px;
+    height: 10px;
+}
