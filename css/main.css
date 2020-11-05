@@ -491,3 +491,13 @@ span.icon img {
     margin-top: 5px;
     height: 10px;
 }
+
+.card.blue {
+    background: #DDEEF5;
+    margin: 15px 0;
+}
+
+.card.blue p {
+    margin-top: 0;
+    font-weight: 500;
+}
