@@ -566,6 +566,18 @@ span.icon img {
     margin-top: 8px;
 }
 
+.blue-white-page ul.numbered > li.sub-bullet {
+    padding: 0;
+}
+
+.blue-white-page li.sub-bullet ul.numbered.no-num.dark > li .num-icon {
+    background: transparent;
+    border: solid #6BA3DA 2px;
+    min-width: 8px;
+    height: 8px;
+    margin-top: 8px;
+}
+
 .blue-white-page ul.numbered.no-num.dark > li.no-top-pad {
     padding-top: 0px;
 }
@@ -688,6 +700,7 @@ strong.blue-text {
     line-height: 20px;
     color: #001D9B;
     margin-bottom: 8px;
+    text-align: left;
 }
 .percentage-list li:last-child {
     margin-bottom: 0;
@@ -758,6 +771,10 @@ strong.blue-text {
     .blue-white-page .flex-item .co-section,
     .blue-white-page .flex-item .co-section h3 {
         text-align: center;
+    }
+
+    .audio-player {
+        background: #ffffff;
     }
 }
 
