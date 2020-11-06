@@ -687,6 +687,7 @@ strong.blue-text {
     line-height: 20px;
     color: #001D9B;
     margin-bottom: 8px;
+    text-align: left;
 }
 .percentage-list li:last-child {
     margin-bottom: 0;
