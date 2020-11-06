@@ -405,6 +405,11 @@ span.icon img {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    
+    .back {
+	    display: none;
+    }
+    
 }
 .socials .social-icon {
     margin-right: 30px;
@@ -599,3 +604,14 @@ strong.blue-text {
 	color: #001D9B;
 }
 
+.back {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    vertical-align: top;
+}
+.back img {
+    padding-right: 5px;
+}
+.back a {
+    text-decoration: none;
+}
