@@ -150,6 +150,11 @@ h4 {
 	color: #2E6BAF;
 }
 
+h4 span.blue-underline {
+	font-weight: 500 !important;
+	text-decoration: underline;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
@@ -208,6 +213,16 @@ h3 {
     text-align: left;
     color: #001D9B;
     margin: 20px 0;
+}
+
+.blue-white-page .left h3 {
+	font-size: 26px;
+    line-height: 36px;
+}
+
+.blue-white-page .right h3 {
+	font-size: 24px;
+    line-height: 27px;
 }
 
 p {
@@ -502,6 +517,10 @@ span.icon img {
 	min-width: 8px;
 	height: 8px;
 	margin-top: 8px;
+}
+
+.blue-white-page ul.numbered.no-num.dark > li.no-top-pad {
+	padding-top: 0px;
 }
 
 .blue-white-page .flex-item.right .co-section {
