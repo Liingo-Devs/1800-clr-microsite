@@ -142,6 +142,14 @@ h1 {
     color: white;
 }
 
+h4 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #2E6BAF;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
@@ -320,7 +328,6 @@ span.icon img {
     .flex-wrap .co-body {
         width: 100%;
         max-width: 100%;
-
     }
     .image.left {
         padding-right: 20px;
@@ -483,6 +490,20 @@ span.icon img {
     text-align: center;
     border-radius: 100%;
 }
+
+.blue-white-page ul.numbered > li .num-icon.small {
+	min-width: 28px;
+	height: 28px;
+	line-height: 30px;
+}
+
+.blue-white-page ul.numbered.no-num.dark > li .num-icon {
+	background: #6BA3DA;
+	min-width: 8px;
+	height: 8px;
+	margin-top: 8px;
+}
+
 .blue-white-page .flex-item.right .co-section {
     max-width: 600px;
     width: 75%;
@@ -498,10 +519,22 @@ span.icon img {
     margin: 15px 0;
 }
 
+.card.white {
+	margin: 20px 0px;
+	padding: 0px 30px; 
+}
+
+.card.white p {
+	margin: 0px;
+	padding: 0px;
+}
+
 .card.blue p {
     margin-top: 0;
     font-weight: 500;
 }
+
+
 .blue-white-page .flex-row .left img {
     max-width: 100%;
 }
