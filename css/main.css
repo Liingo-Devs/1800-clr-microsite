@@ -566,6 +566,18 @@ span.icon img {
     margin-top: 8px;
 }
 
+.blue-white-page ul.numbered > li.sub-bullet {
+    padding: 0;
+}
+
+.blue-white-page li.sub-bullet ul.numbered.no-num.dark > li .num-icon {
+    background: transparent;
+    border: solid #6BA3DA 2px;
+    min-width: 8px;
+    height: 8px;
+    margin-top: 8px;
+}
+
 .blue-white-page ul.numbered.no-num.dark > li.no-top-pad {
     padding-top: 0px;
 }
