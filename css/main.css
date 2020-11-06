@@ -796,7 +796,9 @@ strong.blue-text {
     .hide-desktop {
         display: initial;
     }
-
+    #footer {
+        padding: 0;
+    }
 }
 
 .co-body img {
