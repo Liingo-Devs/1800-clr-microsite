@@ -758,5 +758,9 @@ strong.blue-text {
     .blue-white-page .flex-item .co-section h3 {
         text-align: center;
     }
+
+    .audio-player {
+        background: #ffffff;
+    }
 }
 
