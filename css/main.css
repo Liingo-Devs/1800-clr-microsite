@@ -351,6 +351,10 @@ span.icon img {
     margin-right: 11px;
 }
 
+.hidden {
+    display: none;
+}
+
 @media (max-width: 860px) {
     .flex-wrap .co-body {
         width: 100%;
