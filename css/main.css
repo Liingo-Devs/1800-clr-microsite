@@ -144,16 +144,16 @@ h1 {
 }
 
 h4 {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
-	color: #2E6BAF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E6BAF;
 }
 
 h4 span.blue-underline {
-	font-weight: 500 !important;
-	text-decoration: underline;
+    font-weight: 500 !important;
+    text-decoration: underline;
 }
 
 .container {
@@ -217,12 +217,12 @@ h3 {
 }
 
 .blue-white-page .left h3 {
-	font-size: 26px;
+    font-size: 26px;
     line-height: 36px;
 }
 
 .blue-white-page .right h3 {
-	font-size: 24px;
+    font-size: 24px;
     line-height: 27px;
 }
 
@@ -258,7 +258,7 @@ a.link {
 }
 
 a {
-	color: #001D9B;
+    color: #001D9B;
 }
 
 .bkg-light-blue {
@@ -323,8 +323,8 @@ a {
 }
 
 #footer a {
-	color: #DDEEF5;
-	text-decoration: none;
+    color: #DDEEF5;
+    text-decoration: none;
 
 }
 
@@ -405,11 +405,11 @@ span.icon img {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    
+
     .back {
-	    display: none;
+        display: none;
     }
-    
+
 }
 .socials .social-icon {
     margin-right: 30px;
@@ -524,20 +524,20 @@ span.icon img {
 }
 
 .blue-white-page ul.numbered > li .num-icon.small {
-	min-width: 28px;
-	height: 28px;
-	line-height: 30px;
+    min-width: 28px;
+    height: 28px;
+    line-height: 30px;
 }
 
 .blue-white-page ul.numbered.no-num.dark > li .num-icon {
-	background: #6BA3DA;
-	min-width: 8px;
-	height: 8px;
-	margin-top: 8px;
+    background: #6BA3DA;
+    min-width: 8px;
+    height: 8px;
+    margin-top: 8px;
 }
 
 .blue-white-page ul.numbered.no-num.dark > li.no-top-pad {
-	padding-top: 0px;
+    padding-top: 0px;
 }
 
 .blue-white-page .flex-item.right .co-section {
@@ -556,13 +556,13 @@ span.icon img {
 }
 
 .card.white {
-	margin: 20px 0px;
-	padding: 0px 30px;
+    margin: 20px 0px;
+    padding: 0px 30px;
 }
 
 .card.white p {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .card.blue p {
@@ -593,15 +593,15 @@ strong.blue-text {
 }
 
 .source {
-	color: #3D404D;
+    color: #3D404D;
     font-size: 13px;
-	line-height: 20px;
+    line-height: 20px;
 }
 
 .source a {
-	font-weight: 500;
-	text-decoration: none;
-	color: #001D9B;
+    font-weight: 500;
+    text-decoration: none;
+    color: #001D9B;
 }
 
 .back {
@@ -707,3 +707,19 @@ strong.blue-text {
     background: url("../img/underline-asking-for-it.png") no-repeat left bottom;
     display: inline-block;
 }
+
+@media only screen and (max-width: 1024px) {
+    .blue-white-page .flex-row .left {
+        width: 250px;
+    }
+    .blue-white-page .flex-row .right .co-section {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blue-white-page .flex-row {
+        flex-direction: column;
+    }
+}
+
