@@ -760,7 +760,9 @@ strong.blue-text {
         width: 70%;
     }
 }
-
+.hide-desktop {
+    display: none;
+}
 @media only screen and (max-width: 900px) {
     .blue-white-page .flex-row {
         flex-direction: column;
@@ -791,7 +793,20 @@ strong.blue-text {
     h1 {
         font-size: 36px;
     }
+    .hide-desktop {
+        display: initial;
+    }
+    #footer {
+        padding: 0;
+    }
 }
+
+.co-body img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 .mt-56 {
     margin-top: 56px;
