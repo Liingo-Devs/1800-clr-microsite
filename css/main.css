@@ -437,7 +437,7 @@ span.icon img {
     }
 
     .back {
-        display: none;
+
     }
 
 }
@@ -747,9 +747,16 @@ strong.blue-text {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .blue-white-page .flex-row {
         flex-direction: column;
+    }
+    .blue-white-page .flex-row .left {
+        width: 100%;
+    }
+    .blue-white-page .flex-item .co-section,
+    .blue-white-page .flex-item .co-section h3 {
+        text-align: center;
     }
 }
 
