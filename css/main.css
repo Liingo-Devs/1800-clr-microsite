@@ -144,16 +144,16 @@ h1 {
 }
 
 h4 {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
-	color: #2E6BAF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E6BAF;
 }
 
 h4 span.blue-underline {
-	font-weight: 500 !important;
-	text-decoration: underline;
+    font-weight: 500 !important;
+    text-decoration: underline;
 }
 
 .container {
@@ -217,12 +217,12 @@ h3 {
 }
 
 .blue-white-page .left h3 {
-	font-size: 26px;
+    font-size: 26px;
     line-height: 36px;
 }
 
 .blue-white-page .right h3 {
-	font-size: 24px;
+    font-size: 24px;
     line-height: 27px;
 }
 
@@ -231,7 +231,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     text-align: left;
     color: #3D404D;
     padding: 10px 0;
@@ -258,7 +258,7 @@ a.link {
 }
 
 a {
-	color: #001D9B;
+    color: #001D9B;
 }
 
 .bkg-light-blue {
@@ -323,8 +323,8 @@ a {
 }
 
 #footer a {
-	color: #DDEEF5;
-	text-decoration: none;
+    color: #DDEEF5;
+    text-decoration: none;
 
 }
 
@@ -349,6 +349,36 @@ span.icon {
 
 span.icon img {
     margin-right: 11px;
+}
+
+.hidden {
+    display: none;
+}
+
+.audio-player {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #2E6BAF;
+    background: #DDEEF5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.audio-player div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+.audio-player div h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #001D9B;
+    margin: 0px 0 5px;
 }
 
 @media (max-width: 860px) {
@@ -405,11 +435,11 @@ span.icon img {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    
+
     .back {
-	    display: none;
+        display: none;
     }
-    
+
 }
 .socials .social-icon {
     margin-right: 30px;
@@ -524,20 +554,20 @@ span.icon img {
 }
 
 .blue-white-page ul.numbered > li .num-icon.small {
-	min-width: 28px;
-	height: 28px;
-	line-height: 30px;
+    min-width: 28px;
+    height: 28px;
+    line-height: 30px;
 }
 
 .blue-white-page ul.numbered.no-num.dark > li .num-icon {
-	background: #6BA3DA;
-	min-width: 8px;
-	height: 8px;
-	margin-top: 8px;
+    background: #6BA3DA;
+    min-width: 8px;
+    height: 8px;
+    margin-top: 8px;
 }
 
 .blue-white-page ul.numbered.no-num.dark > li.no-top-pad {
-	padding-top: 0px;
+    padding-top: 0px;
 }
 
 .blue-white-page .flex-item.right .co-section {
@@ -556,13 +586,13 @@ span.icon img {
 }
 
 .card.white {
-	margin: 20px 0px;
-	padding: 0px 30px;
+    margin: 20px 0px;
+    padding: 0px 30px;
 }
 
 .card.white p {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .card.blue p {
@@ -593,15 +623,15 @@ strong.blue-text {
 }
 
 .source {
-	color: #3D404D;
+    color: #3D404D;
     font-size: 13px;
-	line-height: 20px;
+    line-height: 20px;
 }
 
 .source a {
-	font-weight: 500;
-	text-decoration: none;
-	color: #001D9B;
+    font-weight: 500;
+    text-decoration: none;
+    color: #001D9B;
 }
 
 .back {
@@ -615,3 +645,111 @@ strong.blue-text {
 .back a {
     text-decoration: none;
 }
+
+.percentage-bar {
+    display: block;
+    height: 32px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "GT Walsheim Regular", Arial;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.percentage-bar.indigo {
+    /*width: 218px;*/
+    width: 49%;
+    background: #001D9B;
+    margin-top: 14px;
+}
+.percentage-bar.better-way-blue {
+    /*width: 246px;*/
+    width: 51%;
+    background: #2E6BAF;
+}
+.percentage-bar.light-blue {
+    /*width: 449px;*/
+    width: 100%;
+    background: #DDEEF5;
+    color: #001D9B;
+    margin-bottom: 0;
+}
+.percentage-list {
+    list-style-type: none;
+    margin: 24px 0;
+}
+.percentage-list img {
+    margin-right: 8px;
+}
+.percentage-list li {
+    font-size: 14px;
+    line-height: 20px;
+    color: #001D9B;
+    margin-bottom: 8px;
+}
+.percentage-list li:last-child {
+    margin-bottom: 0;
+}
+.quote.chairman-simons {
+    border-left: 4px solid #6BA3DA;
+    padding-left: 24px;
+    margin: 24px 0;
+    font-family: "GT Walsheim Regular", Arial;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.quote-source {
+    font-size: 13px;
+    line-height: 20px;
+    color: #828282;
+    margin-bottom: 4px;
+    padding: 0;
+}
+.math-check {
+    list-style-type: none;
+    border-left: 4px solid #001D9B;
+    background: #DDEEF5;
+    border-radius: 0 8px 8px 0;
+    padding: 0 22px;
+}
+.math-check li {
+    color: #3D404D;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.math-check li:last-child {
+    font-size: 29px;
+    line-height: 32px;
+    color: #001D9B;
+    font-weight: 500;
+    border-top: 2px solid white;
+}
+.text-indigo {
+    color: #001D9B;
+    font-weight: 500;
+}
+.underline-asking-for-it {
+    background: url("../img/underline-asking-for-it.png") no-repeat left bottom;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .blue-white-page .flex-row .left {
+        width: 250px;
+    }
+    .blue-white-page .flex-row .right .co-section {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blue-white-page .flex-row {
+        flex-direction: column;
+    }
+}
+
