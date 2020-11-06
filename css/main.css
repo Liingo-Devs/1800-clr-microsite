@@ -787,5 +787,9 @@ strong.blue-text {
     .hide-mobile {
         display: none;
     }
+
+    h1 {
+        font-size: 36px;
+    }
 }
 
