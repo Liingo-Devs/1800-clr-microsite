@@ -793,3 +793,62 @@ strong.blue-text {
     }
 }
 
+.mt-56 {
+    margin-top: 56px;
+}
+
+.claim-section {
+    margin: 30px 0;
+}
+
+.claim-group {
+    font-family: "GT Walsheim Medium", Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.claim-group .claim-header {
+    font-weight: 500;
+    color: #001D9B;
+    vertical-align: top;
+    width: 75px;
+    flex-shrink: 0;
+}
+
+.claim-group .claim-content {
+    vertical-align: top;
+    color: #3D404D;
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+.sub-bullet {
+    margin-left: 40px;
+}
+
+.blue-white-page ul.numbered.no-num > li {
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 860px) {
+
+    .claim-section .flex-wrap {
+        background: white;
+        padding: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+
+}
