@@ -238,6 +238,7 @@ a.link {
     cursor: pointer;
     padding-bottom: 3px;
     border-bottom: 2px solid;
+    text-decoration: none;
 }
 
 .bkg-light-blue {
@@ -521,7 +522,7 @@ span.icon img {
 
 .card.white {
 	margin: 20px 0px;
-	padding: 0px 30px; 
+	padding: 0px 30px;
 }
 
 .card.white p {
@@ -537,4 +538,21 @@ span.icon img {
 
 .blue-white-page .flex-row .left img {
     max-width: 100%;
+}
+
+strong.blue-text {
+    color: #001D9B;
+    font-weight: 600;
+    margin: 25px 0 20px;
+    display: block;
+}
+
+.fact-check {
+    margin: 20px 0;
+    align-items: center;
+}
+
+.fact-check .blue-text {
+    padding-left: 15px;
+    line-height: 1.5;
 }
