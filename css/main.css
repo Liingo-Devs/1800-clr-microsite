@@ -783,5 +783,9 @@ strong.blue-text {
     .audio-player {
         background: #ffffff;
     }
+
+    .hide-mobile {
+        display: none;
+    }
 }
 
