@@ -370,6 +370,7 @@ span.icon img {
 .audio-player div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-left: 2em;
 }
 
