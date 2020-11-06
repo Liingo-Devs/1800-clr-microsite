@@ -757,7 +757,7 @@ strong.blue-text {
         width: 250px;
     }
     .blue-white-page .flex-row .right .co-section {
-        width: 70%;
+        width: 85%;
     }
 }
 .hide-desktop {
@@ -792,7 +792,7 @@ strong.blue-text {
 
     h1 {
         font-size: 36px;
-        line-height: 1.4;
+        line-height: 1.3;
     }
     .hide-desktop {
         display: initial;
@@ -871,4 +871,8 @@ h4 {
 .blue-white-page .co-section {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+#footer a.contact-us {
+	text-decoration: underline;
 }
