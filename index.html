@@ -126,27 +126,32 @@
                     <h3>Answering the phone isn't hard.</h3>
                     <p>Many optometrists also claim that receiving automated calls that verify their patients' prescriptions aren't useful or are hard to understand. We'll let you be the judge:</p>
 
-                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
-						 xmlns="http://www.w3.org/2000/svg" class="playBtn" onclick="playAudio()">
-						<circle cx="28" cy="28" r="28" fill="#001D9B"/>
-						<path d="M36 28L24 34.9282L24 21.0718L36 28Z" fill="white"/>
-					</svg>
-                    
-					<svg width="56" height="56" viewBox="0 0 56 56" fill="none"
-                         xmlns="http://www.w3.org/2000/svg" class="pauseBtn hidden" onclick="pauseAudio()">
-                        <circle cx="28" cy="28" r="28" fill="#001D9B"/>
-                        <line x1="24.5" y1="35" x2="24.5" y2="22" stroke="white" stroke-width="4"
-                              stroke-linecap="round"/>
-                        <line x1="32.5" y1="35" x2="32.5" y2="22" stroke="white" stroke-width="4"
-                              stroke-linecap="round"/>
-					</svg>
-					
-					<audio id="verification">
-                        <source src="audio/verification_call_example.wav" type="audio/wav">
-                    </audio>
+                    <div class="audio-player">
 
-                    <h4>Verification call example</h4>
-	                Provided by 1-800 Contacts
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="playBtn" onclick="playAudio()">
+                            <circle cx="28" cy="28" r="28" fill="#001D9B"/>
+                            <path d="M36 28L24 34.9282L24 21.0718L36 28Z" fill="white"/>
+                        </svg>
+                        
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="pauseBtn hidden" onclick="pauseAudio()">
+                            <circle cx="28" cy="28" r="28" fill="#001D9B"/>
+                            <line x1="24.5" y1="35" x2="24.5" y2="22" stroke="white" stroke-width="4"
+                                  stroke-linecap="round"/>
+                            <line x1="32.5" y1="35" x2="32.5" y2="22" stroke="white" stroke-width="4"
+                                  stroke-linecap="round"/>
+                        </svg>
+                        
+                        <audio id="verification">
+                            <source src="audio/verification_call_example.wav" type="audio/wav">
+                        </audio>
+                        
+                        <div>
+                            <h4>Verification call example</h4>
+                            Provided by 1-800 Contacts
+                        </div>
+                    </div>
 
                     <p>We're pretty proud of the quality of our prescription verification calls. Our verification call system employs a combination of state-of-the-art tech and our customer service associates to make sure the correct optometrist's office was reached before the verification information is transmitted. Optometrists receive, on average, less than two of these calls from us per week.</p>
                     <a class="link" href="7.html">Learn more about our human-initiated voice recordings.</a>

@@ -355,6 +355,31 @@ span.icon img {
     display: none;
 }
 
+.audio-player {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #2E6BAF;
+    background: #DDEEF5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.audio-player div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+}
+
+.audio-player div h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #001D9B;
+    margin: 0px 0 5px;
+}
+
 @media (max-width: 860px) {
     .flex-wrap .co-body {
         width: 100%;
