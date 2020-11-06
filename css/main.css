@@ -603,6 +603,7 @@ span.icon img {
 
 .blue-white-page .flex-row .left img {
     max-width: 100%;
+    height: auto;
 }
 
 strong.blue-text {
