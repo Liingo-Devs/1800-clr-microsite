@@ -792,6 +792,7 @@ strong.blue-text {
 
     h1 {
         font-size: 36px;
+        line-height: 1.4;
     }
     .hide-desktop {
         display: initial;
@@ -866,4 +867,8 @@ h4 {
         border-radius: 0px;
     }
 
+}
+.blue-white-page .co-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
