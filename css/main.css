@@ -256,6 +256,10 @@ a.link {
     text-decoration: none;
 }
 
+a {
+	color: #001D9B;
+}
+
 .bkg-light-blue {
     background: #DDEEF5;
 }
@@ -575,3 +579,16 @@ strong.blue-text {
     padding-left: 15px;
     line-height: 1.5;
 }
+
+.source {
+	color: #3D404D;
+    font-size: 13px;
+	line-height: 20px;
+}
+
+.source a {
+	font-weight: 500;
+	text-decoration: none;
+	color: #001D9B;
+}
+
